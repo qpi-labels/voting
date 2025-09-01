@@ -9,13 +9,7 @@
     <link href="https://fonts.cdnfonts.com/css/br-cobane" rel="stylesheet">
     <script>
             document.addEventListener("DOMContentLoaded", function () {
-            const redirectURL = "https://qpi.kro.kr";
-
-            if (!sessionStorage.getItem("verified") && document.referrer.indexOf(allowedReferrer) !== 0) {
-                window.location.href = redirectURL;
-            } else {
-                sessionStorage.setItem("verified", "true");
-            }
+            const redirectURL = "https://qpi.kro.kr/403";
     </script>
     <style>
         /* 폰트 설정 (생략 가능) */
